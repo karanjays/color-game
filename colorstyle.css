@@ -1,0 +1,59 @@
+body {
+    background-color: rgb(15, 10, 152);
+    color: aliceblue;
+}
+
+.container {
+    margin-top: 10vh;
+}
+
+#dv1 {
+    background-color: aqua;
+    text-align: center;
+    padding-top: 0.3vh;
+    padding-bottom: 0.3vh;
+}
+
+#dv2 {
+    background-color: #fff;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+}
+
+span {
+    padding: 0 1vh;
+}
+
+#easy {
+    background-color: aquamarine;
+}
+
+#easy:hover,
+#hard:hover {
+    background-color: aquamarine;
+}
+
+#dv22 {
+    visibility: hidden;
+}
+#hard1{
+    visibility: hidden;
+}
+#dv21:hover,
+span:hover,
+.square:hover {
+    cursor: pointer;
+}
+
+.square {
+    background-color: red;
+    height: 20vh;
+    width: 20vh;
+    border-radius: 10%;
+    margin: 10px;
+}
+
+.dv3 {
+    margin-top: 3%;
+}
